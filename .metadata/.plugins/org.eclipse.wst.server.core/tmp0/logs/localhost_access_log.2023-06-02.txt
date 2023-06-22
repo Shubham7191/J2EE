@@ -1,0 +1,13 @@
+127.0.0.1 - - [02/Jun/2023:20:01:21 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [02/Jun/2023:20:01:22 +0530] "GET /servlet2/car.html HTTP/1.1" 200 515
+0:0:0:0:0:0:0:1 - - [02/Jun/2023:20:01:22 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [02/Jun/2023:20:01:28 +0530] "GET /servlet2/Car?carName=audi HTTP/1.1" 200 25
+127.0.0.1 - - [02/Jun/2023:20:08:28 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [02/Jun/2023:20:08:29 +0530] "GET /servlet2/cal.html HTTP/1.1" 200 329
+0:0:0:0:0:0:0:1 - - [02/Jun/2023:20:08:36 +0530] "GET /servlet2/calc?number1=2&number2=2 HTTP/1.1" 200 1
+127.0.0.1 - - [02/Jun/2023:20:23:50 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [02/Jun/2023:20:23:51 +0530] "GET /servlet2/Registration.html HTTP/1.1" 200 427
+0:0:0:0:0:0:0:1 - - [02/Jun/2023:20:24:05 +0530] "GET /servlet2/reg?name=shubham&surname=gaikwadd&email=shubhamgaikwad760760%40gmail.com HTTP/1.1" 500 3531
+127.0.0.1 - - [02/Jun/2023:20:27:40 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [02/Jun/2023:20:27:41 +0530] "GET /servlet2/Registration.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [02/Jun/2023:20:27:46 +0530] "GET /servlet2/reg?name=Shubham&surname=Gaikwad&email=shubhamgaikwad760760%40gmail.com HTTP/1.1" 200 18

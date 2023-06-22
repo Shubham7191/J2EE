@@ -1,0 +1,40 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+	pageEncoding="ISO-8859-1"%>
+	
+	 <%@page import="dto.Student" %>
+	
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Edit</title>
+</head>
+<body>
+
+
+
+ 	<%Student student = (Student)request.getAttribute("student"); %>
+
+	<form action="edit" method="post">
+		<label>Id:</label>
+		<input type="number" name="Id" value="<%=student.getStudentId()%>"   readonly="readonly"> 
+		   <br> <br>
+		<label>Name</label> 
+		<input type="text" name="Name" value="<%=student.getStudentname() %>" required="required"> 
+		<br> <br> 
+		<label>Address</label> 
+		<input type="text" name="Address" value="<%= student.getStudentAddress() %>" required="required">
+	<br><br> 
+		<label>Phone</label> 
+		<input type="number" name="phone" value="<%=student.getPhone() %>" required="required"> 
+		      <br> <br> 
+		<label>Email</label> 
+		<input type="email" name="Email" value="<%=student.getStudentEmail() %>" required="required">
+		      <br> <br> 
+		 <label>Password</label>
+		<input type="password" name="Password" value="<%=student.getStudentPassword() %>" required="required"> 
+		     <br> <br>
+		<input type="submit" value="Edit">
+	</form>
+</body>
+</html>

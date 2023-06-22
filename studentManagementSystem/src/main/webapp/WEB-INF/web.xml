@@ -1,0 +1,63 @@
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+
+  <servlet>
+    <servlet-name>signupServlet</servlet-name>
+    <servlet-class>studentManagementSystem.Signup</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>signupServlet</servlet-name>
+    <url-pattern>/SignUp</url-pattern>
+  </servlet-mapping>
+
+
+
+
+  <servlet>
+    <servlet-name>loginServlet</servlet-name>
+    <servlet-class>studentManagementSystem.Login</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>loginServlet</servlet-name>
+    <url-pattern>/Login</url-pattern>
+  </servlet-mapping>
+
+
+
+
+  <servlet>
+    <servlet-name>loginServlet2</servlet-name>
+    <servlet-class>studentManagementSystem.Login2</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>loginServlet2</servlet-name>
+    <url-pattern>/Login2</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>update_student</servlet-name>
+    <servlet-class>studentManagementSystem.Update</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>update_student</servlet-name>
+    <url-pattern>/up</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>Delete student</servlet-name>
+    <servlet-class>studentManagementSystem.Delete</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Delete student</servlet-name>
+    <url-pattern>/del</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>Display</servlet-name>
+    <servlet-class>studentManagementSystem.Display</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Display</servlet-name>
+    <url-pattern>/display</url-pattern>
+  </servlet-mapping>
+</web-app>

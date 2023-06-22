@@ -1,0 +1,4 @@
+127.0.0.1 - - [07/Jun/2023:20:16:40 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [07/Jun/2023:20:16:40 +0530] "GET /studentManagementSystem/Login2.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [07/Jun/2023:20:16:40 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [07/Jun/2023:20:16:58 +0530] "POST /studentManagementSystem/Login2 HTTP/1.1" 500 1468

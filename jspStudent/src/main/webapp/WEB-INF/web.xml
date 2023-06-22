@@ -1,0 +1,33 @@
+<web-app>
+<display-name>Archetype Created Web Application</display-name>
+
+<context-param>
+	<param-name>Fees</param-name>
+    <param-value>2300</param-value>
+
+</context-param>
+
+<servlet>
+	<servlet-name>jspstudent</servlet-name>
+	<servlet-class>jspStudent.servlet.StudentSignup</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>jspstudent</servlet-name>
+	<url-pattern>/SignUp</url-pattern>
+</servlet-mapping>
+
+
+
+<servlet>
+	<servlet-name>edit</servlet-name>
+	<servlet-class>jspStudent.servlet.StudentEdit</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>edit</servlet-name>
+	<url-pattern>/edit</url-pattern>
+</servlet-mapping>
+
+
+
+</web-app>
+
